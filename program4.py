@@ -5,9 +5,10 @@ while True:
         num1 = float(input("Enter 1st number: "))
         num2 = float(input("Enter 2nd number: "))
 
-        quotient = num1 /  num2
+        quotient = num1 //  num2
 
         print(f"The quotient is {quotient:.0f}.")
+        break
 
     except ValueError:
         print("Invalid input")

@@ -8,6 +8,7 @@ while True:
         remainder = num1 %  num2
 
         print(f"The remainder is {remainder}")
+        break
 
     except ValueError:
         print("Invalid input")
