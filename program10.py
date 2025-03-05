@@ -18,6 +18,7 @@ while True:
        
         print(f"The number between {num1} and {num2}: {nums}")
         break
-        
+    
     else:
         print(f"There is no number between {num1} and {num2}.")
+        break
