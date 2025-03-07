@@ -12,3 +12,6 @@ while True:
 
     except ValueError:
         print("Invalid input")
+
+    except ZeroDivisionError:
+        print("Number can not be divided by zero")
